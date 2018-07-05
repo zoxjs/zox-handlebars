@@ -1,0 +1,39 @@
+{
+  "name": "zox-handlebars",
+  "version": "1.0.0",
+  "description": "Handlebars Rendering Engine Plugin for Zox",
+  "author": "Zoran Ravic <contact@zoranravic.com> (zoranravic.com)",
+  "license": "MIT",
+  "repository": "zoxjs/zox-handlebars",
+  "homepage": "http://zox.zoranravic.com/",
+  "main": "Plugins/HandlebarsEngine.js",
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "Plugins/**/*.js",
+    "Plugins/**/*.d.ts"
+  ],
+  "keywords": [
+    "handlebars",
+    "zox",
+    "templates",
+    "render",
+    "engine",
+    "plugin",
+    "plugins"
+  ],
+  "dependencies": {
+    "handlebars": "^4.0.11"
+  },
+  "devDependencies": {
+    "@types/handlebars": "^4.0.38",
+    "@types/node": "^10.5.1",
+    "zox": "^1.0.0",
+    "zox-plugins": "^1.0.0"
+  },
+  "plugins": {
+    "dirs": [
+      "Plugins"
+    ]
+  }
+}
