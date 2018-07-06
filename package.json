@@ -1,6 +1,6 @@
 {
   "name": "zox-handlebars",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Handlebars Rendering Engine Plugin for Zox",
   "author": "Zoran Ravic <contact@zoranravic.com> (zoranravic.com)",
   "license": "MIT",
